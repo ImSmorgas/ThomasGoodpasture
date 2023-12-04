@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.pages-container {
+    display: flex;
+    overflow-x: hidden;
+    transition: transform 0.5s ease-in-out;
+    flex-wrap: wrap;
+}
+
+.pages {
+    display: flex;
+	width: 300%;
+	box-sizing: border-box;
+    transition: transform 0.5s ease;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	gap: 10px;
+    transition: all 0.7s;
+    color: white;
+    transform: translateY(0);
+}
+
+.one{
+    background: orangered;
+}
+
+.two{
+    background-color: dodgerblue;
+}
+
+.three{
+    background-color: indigo;
+}
+
+.four{
+    background-color: limegreen;
+}
+
+.five{
+    background-color: aqua;
+}
+
+.six{
+    background-color: chartreuse;
+}
+
+.vertical {
+    padding: 0px;
+    height: 150px;
+    width: 5px;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+.vertical:hover {
+    height: 160px;
+    width: 10px;
+    transition: 0.2s;
+}
+
+.left {
+    margin-left: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.horizontal {
+    padding: 0px;
+    height: 5px;
+    width: 150px;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+.horizontal:hover {
+    width: 160px;
+    height: 10px;
+    transition: 0.2s;
+}
