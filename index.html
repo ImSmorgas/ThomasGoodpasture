@@ -15,16 +15,16 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/landing-css/styles.css">
 
         <!-- Custom JS -->
-        <script src="js/script.js"></script>
+        <script src="js/landing-js/script.js"></script>
 
         <title>Thomas Goodpasture</title>
     </head>
 
 
-    <body">
+    <body>
         <div class="background">
             <div class="pages-container">
                 <div class="pages" id="pages1">
@@ -33,7 +33,34 @@
                             <button class="vertical right" onclick="slide('next', 'pages1')"></button>
                             <button class="horizontal bottom" onclick="slide('down', 'pages1')"></button>
                         </nav>
-                        <h1 class="animated-element-slow">Portfolio</h1>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <h1
+                                    class="animated-element-1s position-absolute top-0 start-50 translate-middle-x p-4 text-center">
+                                    My Favorite Projects
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+                                <div class="col animated-element-2s1">
+                                    <div class="image-container delayed-hover">
+                                        <a href="p-chattanooga.html">
+                                            <img src="images/chattanooga.png" class="w-100" target="_blank"
+                                                alt="Chattanooga Website">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col animated-element-2s1">
+                                    <div class="image-container delayed-hover">
+                                        <a href="p-florida.html">
+                                            <img src="images/florida.png" class="w-100" alt="Florida Website">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="page two" id="2">
                         <nav>
@@ -43,17 +70,20 @@
                                 onclick="slide('next', 'pages1')"></button>
                             <button class="horizontal bottom button-animated-horizontal"
                                 onclick="slide('down', 'pages1')"></button>
+                            <div class="arrow-indicator-left beside-left"></div>
+                            <div class="arrow-indicator-down above-bottom"></div>
+                            <div class="arrow-indicator-right beside-right"></div>
                         </nav>
-                        <h1 class="animated-element-slow">Welcome</h1>
-                        <h2 class="animated-element-slower">These are your navigation buttons</h2>
-                        <h3 class="animated-element-slowest">Use them well</h3>
+                        <h1 class="animated-element-1s">Welcome</h1>
+                        <h2 class="animated-element-2s">These are your navigation buttons</h2>
+                        <h3 class="animated-element-3s">Use them to find out more about me</h3>
                     </div>
                     <div class="page three" id="3">
                         <nav>
                             <button class="vertical left" onclick="slide('prev', 'pages1')"></button>
                             <button class="horizontal bottom" onclick="slide('down', 'pages1')"></button>
                         </nav>
-                        <h1 class="animated-element-slow">Cool Stuff</h1>
+                        <h1 class="animated-element-1s">Cool Stuff</h1>
                     </div>
                 </div>
             </div>
@@ -65,7 +95,7 @@
                             <button class="horizontal top" onclick="slide('up', 'pages2')"></button>
                             <button class="vertical right" onclick="slide('next', 'pages2')"></button>
                         </nav>
-                        <h1 class="animated-element-slow">Portfolio Continued</h1>
+                        <h1 class="animated-element-1s">Portfolio Continued</h1>
                     </div>
                     <div class="page five" id="5">
                         <nav>
@@ -73,7 +103,68 @@
                             <button class="vertical left" onclick="slide('prev', 'pages2')"></button>
                             <button class="vertical right" onclick="slide('next', 'pages2')"></button>
                         </nav>
-                        <h1 class="animated-element-slow">About Me</h1>
+                        <div class="content pb-3">
+                            <h1 class="opacity-in-move-up">About Me</h1>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="animated-element-3s">Hello, I'm Thomas Goodpasture, a dedicated
+                                        Digital Media
+                                        Design and Production student,
+                                        with a focus in web design. I am
+                                        currently in my final semester at Chattanooga State with a <span
+                                            class="animated-text-3s-gpa">GPA</span> of 3.69.
+                                        Currently, I'm enrolled in the <span
+                                            class="animated-text-3s-google-g1">G</span><span
+                                            class="animated-text-3s-google-o1">o</span><span
+                                            class="animated-text-3s-google-o2">o</span><span
+                                            class="animated-text-3s-google-g2">g</span><span
+                                            class="animated-text-3s-google-l">l</span><span
+                                            class="animated-text-3s-google-e">e</span>-led UX/UI
+                                        Design Bootcamp,
+                                        where
+                                        I'm making great progress
+                                        in course 6 out of 7.
+                                    </p>
+                                    <p class="animated-element-4s">What truly drives me is the opportunity to
+                                        create captivating and
+                                        user-friendly
+                                        website experiences. I love
+                                        exploring the possibilities offered by <span class="animated-text-4s-html">
+                                            HTML
+                                        </span>, <span class="animated-text-4s-js">JS</span>, and <span
+                                            class="animated-text-4s-css">CSS</span>,
+                                        always looking to expand
+                                        my
+                                        creative
+                                        boundaries. I also utilize Adobe <span
+                                            class="animated-text-4s-ai">Illustrator</span>, <span
+                                            class="animated-text-4s-aps">Photoshop</span>, <span
+                                            class="animated-text-4s-app">Premiere Pro</span>, <span
+                                            class="animated-text-4s-axd">XD</span>,
+                                        and
+                                        other
+                                        platforms such as <span class="animated-text-4s-figma-f">F</span><span
+                                            class="animated-text-4s-figma-i">i</span><span
+                                            class="animated-text-4s-figma-g">g</span><span
+                                            class="animated-text-4s-figma-m">m</span><span
+                                            class="animated-text-4s-figma-a">a</span> to help
+                                        facilitate my creative flow.
+                                    </p>
+                                    <p class="animated-element-5s pb-3">
+                                        I'm excited about
+                                        the prospect of bringing my skills and passion to your project, creating a
+                                        digital
+                                        experience that stands out.
+                                    </p>
+                                    <a class="text-fefefe animated-element-6s"
+                                        href="images/Goodpasture_Thomas_Resume.png"
+                                        download="Goodpasture_Thomas_Resume">Download Resume</a>
+                                    <div class="col-6">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="page six" id="6">
                         <div>
@@ -81,11 +172,12 @@
                                 <button class="horizontal top" onclick="slide('up', 'pages2')"></button>
                                 <button class="vertical left" onclick="slide('prev', 'pages2')"></button>
                             </nav>
-                            <h1 class="animated-element-slow">Send Me A Message</h1>
+                            <h1 class="animated-element-1s">Send Me A Message</h1>
                         </div>
                     </div>
                 </div>
             </div>
-            </body>
+        </div>
+    </body>
 
 </html>
