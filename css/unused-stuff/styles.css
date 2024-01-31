@@ -1,0 +1,440 @@
+/* 5 */
+@keyframes combinedAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(calc(50vh - 14vh)) translateX(calc(50vw - 14vw));
+  }
+
+  25% {
+    opacity: 1;
+    transform: translateY(calc(50vh - 14vh)) translateX(calc(50vw - 14vw));
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0) translateX(calc(50vw - 14vw));
+  }
+
+  75% {
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.opacity-in-move-up {
+  opacity: 0;
+  transform: translateY(-50%) translateX(-50%);
+  animation: combinedAnimation 3s 1s ease-in-out forwards;
+}
+
+.opacity-in-move-up.active {
+  opacity: 1;
+}
+
+.animated-text-3s-gpa {
+  animation: colorChangegpa 3s ease-in-out 3s;
+  color: #00b323;
+}
+
+@keyframes colorChangegpa {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #00b323;
+    /* Change this to the final color */
+  }
+}
+
+/* Google Colors Animated */
+.animated-text-3s-google-g1 {
+  animation: colorChangeg1 3s ease-in-out 3s;
+  color: #0081ff;
+}
+
+@keyframes colorChangeg1 {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #0081ff;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-3s-google-o1 {
+  animation: colorChangeo1 3.2s ease-in-out 3s;
+  color: #ff3606;
+}
+
+@keyframes colorChangeo1 {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ff3606;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-3s-google-o2 {
+  animation: colorChangeo2 3.4s ease-in-out 3s;
+  color: #ffbe00;
+}
+
+@keyframes colorChangeo2 {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ffbe00;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-3s-google-g2 {
+  animation: colorChangeg2 3.6s ease-in-out 3s;
+  color: #0081ff;
+}
+
+@keyframes colorChangeg2 {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #0081ff;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-3s-google-l {
+  animation: colorChangel 3.8s ease-in-out 3s;
+  color: #00b323;
+}
+
+@keyframes colorChangel {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #00b323;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-3s-google-e {
+  animation: colorChangee 4s ease-in-out 3s;
+  color: #ff3606;
+}
+
+@keyframes colorChangee {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ff3606;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-css {
+  animation: colorChangecss 3s ease-in-out 4s;
+  color: #009ce6;
+}
+
+@keyframes colorChangecss {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #009ce6;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-html {
+  animation: colorChangehtml 3s ease-in-out 4s;
+  color: #fe7c64;
+}
+
+@keyframes colorChangehtml {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #fe7c64;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-js {
+  animation: colorChangejs 3s ease-in-out 4s;
+  color: #ffc940;
+}
+
+@keyframes colorChangejs {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ffc940;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-ai {
+  animation: colorChangeai 3s ease-in-out 4s;
+  color: #ff9a02;
+}
+
+@keyframes colorChangeai {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ff9a02;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-aps {
+  animation: colorChangeaps 3s ease-in-out 4s;
+  color: #31a8ff;
+}
+
+@keyframes colorChangeaps {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #31a8ff;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-app {
+  animation: colorChangeapp 3s ease-in-out 4s;
+  color: #9999ff;
+}
+
+@keyframes colorChangeapp {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #9999ff;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-axd {
+  animation: colorChangeaxd 3s ease-in-out 4s;
+  color: #ff61f5;
+}
+
+@keyframes colorChangeaxd {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ff61f5;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-figma-f {
+  animation: colorChangefigma-f 3s ease-in-out 4s;
+  color: #f14e1c;
+}
+
+@keyframes colorChangefigma-f {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #f14e1c;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-figma-i {
+  animation: colorChangefigma-i 3.2s ease-in-out 4s;
+  color: #a25aff;
+}
+
+@keyframes colorChangefigma-i {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #a25aff;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-figma-g {
+  animation: colorChangefigma-g 3.4s ease-in-out 4s;
+  color: #0acf84;
+}
+
+@keyframes colorChangefigma-g {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #0acf84;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-figma-m {
+  animation: colorChangefigma-m 3.6s ease-in-out 4s;
+  color: #ff7362;
+}
+
+@keyframes colorChangefigma-m {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #ff7362;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-4s-figma-a {
+  animation: colorChangefigma-a 3.8s ease-in-out 4s;
+  color: #19bcfe;
+}
+
+@keyframes colorChangefigma-a {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: #19bcfe;
+    /* Change this to the final color */
+  }
+}
+
+.animated-text-5s {
+  animation: colorChange 3s ease-in-out 5s;
+  color: red;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #fefefe;
+  }
+
+  50% {
+    color: #fefefe;
+  }
+
+  100% {
+    color: red;
+    /* Change this to the final color */
+  }
+}
+
+/* Animated Elements */

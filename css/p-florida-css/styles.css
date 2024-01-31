@@ -1,45 +1,103 @@
 html {
     scroll-behavior: smooth;
 }
-
 body {
-    background-color: #7D193E;
-    color: #fefefe;
+    background-color: #f8f8ff;
+    color: #000;
 }
-
+/* Nav */
 .navbar {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 8px 16px 4px rgba(0, 0, 0, 0.37);
+    z-index: 1000;
 }
-
 .nav-link {
-    color: #fefefe;
-    background-color: transparent;
+    color: rgba(0, 0, 0, .50) !important;
     text-decoration: none;
-    padding: 10px; /* Adjust padding as needed */
+    margin: 0 10px;
+    background-color: transparent;
     position: relative;
     overflow: hidden;
 }
-
 .nav-link::before {
     content: "";
     position: absolute;
-    width: calc(100% - 16px); /* Adjusted width to account for 10 pixels on both sides */
+    width: calc(100% - 16px);
     height: 2px;
     bottom: 10px;
-    left: 8px; /* Adjusted left to account for 10 pixels on the left */
-    background-color: #fefefe;
+    left: 8px;
+    background-color: rgba(0, 0, 0, .73);
     transform-origin: bottom left;
-    transform: scaleX(0); /* Initially set the width to 0, will be scaled on hover */
+    transform: scaleX(0);
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
-.nav-link:hover::before {
-    transform: scaleX(1);
-    background-color: #fefefe;
-}
-
-
-
 .nav-link:hover {
-    color: #fefefe; /* Change text color on hover */
+  color: rgba(0, 0, 0, .73) !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+.bg-glass-florida {
+  background-color: rgba(255, 199, 219, .60);
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.td-none {
+    text-decoration: none;
+}
+.black {
+    color: #000;
+}
+.black:hover {
+    color: #000;
+}
+.bg-black {
+    background-color: rgba(0, 0, 0, 1);
+}
+.center-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.florida {
+    color: rgba(203, 110, 143, 1);
+}
+.td-none {
+    text-decoration: none;
+}
+.black {
+    color: #000;
+}
+.black:hover {
+    color: #000;
+}
+.bold {
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 800;
+}
+.rem3 {
+    font-size: 3rem;
+}
+.rem10 {
+    font-size: 10rem;
+}
+.white {
+    color: #f8f8ff;
+}
+.example {
+    height: auto;
+    width: 300px;
+}
+.box-shadow {
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.app-library .grid {
+  display: flex;
+
+}
+.app-library img {
+    width: 32%;
+    max-width: 100px;
 }
