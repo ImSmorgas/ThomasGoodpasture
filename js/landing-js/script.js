@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Scroll to the section with ID #2 on page load without animation
+    const section2 = document.getElementById('2');
+    if (section2) {
+        section2.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
+});
 $(document).ready(function () {
     // Background Animations
     gsap.to('#bg-c1', {
