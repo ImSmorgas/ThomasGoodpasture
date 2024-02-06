@@ -164,6 +164,16 @@ background: none;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.maxw-350 {
+  max-width: 350px;
+}
+.maxw-390 {
+  max-width: 390px;
+}
+.minw-300 {
+  min-width: 300px;
+}
+
 
 
 
@@ -205,6 +215,7 @@ background: none;
 .works-pic {
   width: 100%;
   height: 100%;
+  max-width: 350px;
   padding: 20px;
   border-radius: 20px;
   opacity: 0;
@@ -262,10 +273,12 @@ background: none;
 #thomas-img {
   animation-name: slideRightToLeft;
   animation-delay: 5s;
+  max-height: 40vh;
 }
 #goodpasture-img {
   animation-name: slideLeftToRight;
   animation-delay: 5s;
+  max-height: 40vh;
 }
 @keyframes slideRightToLeft {
   0%, 20%, 100% {

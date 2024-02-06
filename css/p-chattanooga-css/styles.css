@@ -121,13 +121,11 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-
 /* Hover effect */
 .chatt-button:hover {
   background-color: rgba(135, 176, 206, 1);
   color: #fefefe;
 }
-
 /* Click effect */
 .chatt-button:active {
   background-color: rgba(135, 176, 206, 1);
