@@ -34,6 +34,11 @@
         <!-- FileSaver JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
+        <!-- Google Fonts API -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="css/landing-css/styles.css">
 
@@ -44,14 +49,14 @@
 
 
     <body>
-        <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0">
+        <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" viewBox="0 0 100 100">
             <filter xmlns="http://www.w3.org/2000/svg" id="colormatrix" filterUnits="userSpaceOnUse" x="0" y="0"
                 width="100%">
                 <feGaussianBlur stdDeviation="20" />
                 <feColorMatrix mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -15" result="cutoff" />
             </filter>
         </svg>
-        <svg viewBox="0 0 100 100" class="bg">
+        <svg id="intbg" viewBox="0 0 100 100" class="bg">
             <g class="fmx">
                 <image id="bg-c1" href="images/lest-g.png" x="-25%" y="-25%" />
                 <image id="bg-c2" href="images/lest-t.png" x="100%" y="100%" />
@@ -146,8 +151,9 @@
                     </div>
                 </nav>
                 <div class="jumbotron">
-                    <img id="thomas-img" src="images/Thomas.png" alt="Thomas">
-                    <img id="goodpasture-img" src="images/Goodpasture.png" alt="Goodpasture">
+                    <div class="container mx-auto">
+                        <img class="d-block mx-auto w-100" src="images/header.png" alt="header">
+                    </div>
                 </div>
                 <div class="container">
                     <div class="row row-cols-1 row-cols-md-4 g-3 justify-content-center">
@@ -204,7 +210,7 @@
                                                     <div class="row text-center">
                                                         <div class="col-4 mx-auto">
                                                             <img src="images/Ai.png" alt="Ai">
-                                                            <p class="app-title">AI</p>
+                                                            <p class="app-title">Illustrator</p>
                                                         </div>
                                                         <div class="col-4 mx-auto">
                                                             <img src="images/Ps.png" alt="Ps">

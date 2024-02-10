@@ -6,6 +6,7 @@ html {
 body {
     background-color: #f8f8ff;
     color: rgba(0, 0, 0, .96);
+    font-family: 'Varela Round', sans-serif;
 }
 /* Nav */
 .navbar {

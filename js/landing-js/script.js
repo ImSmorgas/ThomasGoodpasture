@@ -1,11 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
+$(document).ready(function () {
     // Scroll to the section with ID #2 on page load without animation
     const section2 = document.getElementById('2');
     if (section2) {
         section2.scrollIntoView({ behavior: 'auto', block: 'start' });
     }
-});
-$(document).ready(function () {
+
     // Background Animations
     gsap.to('#bg-c1', {
         xPercent: 400,
@@ -57,10 +56,12 @@ $(document).ready(function () {
         },
     });
 
+    
+
     // Cursor Follower
     const cursorFollower = document.getElementById('bg-ci');
 
-    document.addEventListener('mousemove', (event) => {
+    $(document).on('mousemove', function (event) {
         const mouseX = event.clientX;
         const mouseY = event.clientY;
 
@@ -85,14 +86,20 @@ $(document).ready(function () {
         });
     });
 
-    const viewBoxScale = 0.5;
+    const viewBoxScale = 1;
     // Set viewBox dimensions to be twice the size of the screen
     const svgElement = document.querySelector('.bg');
+    const existingLeft = parseFloat(getComputedStyle(svgElement).left); // Get the existing left value
     svgElement.setAttribute('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`);
+    svgElement.style.position = 'absolute';
+    svgElement.style.top = '0';
+    svgElement.style.left = `200vw`; // Adjust based on scroll position
+    
     // Update the width and height of the filter based on the screen size (doubled)
     const filterElement = document.getElementById('colormatrix');
     filterElement.setAttribute('width', window.innerWidth);
     filterElement.setAttribute('height', window.innerHeight);
+
     // Update the filter when the window is resized
     window.addEventListener('resize', () => {
         filterElement.setAttribute('width', window.innerWidth);
@@ -135,7 +142,9 @@ $(document).ready(function () {
         'text-align': 'center',
         'line-height': '10px',
     });
-   $('.download-button').on('click', function (event) {
+
+    // Handle download button click
+    $('.download-button').on('click', function (event) {
         event.preventDefault();
         var downloadLink = $('.download-button').attr('href');
         var fileName = 'Goodpasture_Thomas_Resume';
