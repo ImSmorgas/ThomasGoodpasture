@@ -178,6 +178,12 @@ background: none;
 .rounded-50 {
   border-radius: 50%;
 }
+.bottom-2vh {
+    position: absolute;
+    top: 88vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
@@ -260,7 +266,7 @@ background: none;
 /* Jumbotron */
 .jumbotron {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 100px);
   box-sizing: border-box;
   overflow: hidden;
 }
