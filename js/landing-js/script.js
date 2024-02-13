@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    // Disable horizontal touch scrolling on mobile and tablets
+    document.addEventListener('touchmove', function (event) {
+        if (event.touches.length > 1) {
+            event.preventDefault();
+        }
+    }, { passive: false });
     // Scroll to the section with ID #2 on page load without animation
     const section2 = document.getElementById('2');
     if (section2) {
