@@ -1,12 +1,8 @@
 $(document).ready(function () {
     // Scroll to the section with ID #2 on page load without animation
     window.onload = function () {
-    window.scrollTo({
-        left: window.innerWidth,
-        behavior: 'instant'  // Scroll instantly
-    });
+    window.scrollTo(window.innerWidth, 0); // Scroll to the right by 100vw
 }
-
 
     // Background Animations
     gsap.to('#bg-c1', {
