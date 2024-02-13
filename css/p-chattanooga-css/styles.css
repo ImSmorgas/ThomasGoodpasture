@@ -41,6 +41,9 @@ body {
   color: rgba(0, 0, 0, .73) !important;
   transition: transform 0.3s ease-in-out !important;
 }
+.navbar-toggler {
+    border: none;
+}
 .bg-glass-chattanooga {
   background-color: rgba(179, 220, 255, .60);
   backdrop-filter: saturate(180%) blur(10px);
@@ -131,4 +134,9 @@ body {
 .chatt-button:active {
   background-color: rgba(135, 176, 206, 1);
   color: #000;
+}
+@media (max-width: 575px) {
+    .border-top-sm {
+        border-top: 1px solid rgba(0, 0, 0, .2); /* Adjust the color and style as needed */
+    }
 }
