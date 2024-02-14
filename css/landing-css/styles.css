@@ -13,15 +13,6 @@ body {
 
 
 /* Color, Layout and Sizes */
-.pages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  width: 100%;
-  box-sizing: border-box;
-  transition: transform 1.5s ease;
-  position: relative;
-}
 .page {
   width: 100%;
   display: grid;
