@@ -92,7 +92,7 @@ $(document).ready(function () {
     svgElement.setAttribute('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`);
     svgElement.style.position = 'absolute';
     svgElement.style.top = '0';
-    svgElement.style.left = `200vw`; // Adjust based on scroll position
+    svgElement.style.left = `0`; // Adjust based on scroll position
     
     // Update the width and height of the filter based on the screen size (doubled)
     const filterElement = document.getElementById('colormatrix');

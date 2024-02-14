@@ -1,5 +1,4 @@
 html {
-  overflow-x: hidden;
   zoom: 1;
   margin: 0;
   padding: 0;
@@ -24,7 +23,7 @@ body {
   position: relative;
 }
 .page {
-  width: 100vw;
+  width: 100%;
   display: grid;
   gap: 0px;
   transition: all 0.7s;
@@ -32,11 +31,6 @@ body {
   transform: translateY(0);
   align-items: initial;
   align-self: flex-start;
-}
-.one,
-.two,
-.three {
-background: none;
 }
 .text-fefefe {
   color: #fefefe;

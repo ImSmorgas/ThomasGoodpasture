@@ -50,244 +50,158 @@
 
 
     <body>
-        <svg xmlns="http://www.w3.org/2000/svg" height="0" width="0" viewBox="0 0 100 100">
-            <filter xmlns="http://www.w3.org/2000/svg" id="colormatrix" filterUnits="userSpaceOnUse" x="0" y="0"
-                width="100%">
-                <feGaussianBlur stdDeviation="20" />
-                <feColorMatrix mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -15" result="cutoff" />
-            </filter>
-        </svg>
-        <svg id="intbg" viewBox="0 0 100 100" class="bg">
-            <g class="fmx">
-                <image id="bg-c1" href="images/lest-g.png" x="-25%" y="-25%" />
-                <image id="bg-c2" href="images/lest-t.png" x="100%" y="100%" />
-                <image id="bg-c3" href="images/lest-y.png" x="62.5%" y="-25%" />
-                <image id="bg-c4" href="images/lest-p.png" x="12.5%" y="100%" />
-                <image id="bg-c5" href="images/lest-r.png" x="10%" y="20%" />
-                <image id="bg-ci" href="images/i-w.png" x="-9.375%" y="-9.375%" width="18.75%" height="18.75%" />
-            </g>
-        </svg>
-        <div class="pages" id="pages1">
-            <div class="page one" id="1">
-                <nav class="navbar navbar-expand navbar-light no-border-radius bg-glass">
-                    <div class="container-fluid">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html#1">Works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#2">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#3">Testing Area</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="row">
-                    <h1 class="col-12 text-center my-5">
-                        My Favorite Projects
-                    </h1>
+        <div class="page two" id="2">
+            <nav class="navbar navbar-expand navbar-light no-border-radius bg-glass">
+                <div class="container-fluid">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="playground.html">Testing Area</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="container mx-auto px-5">
-                    <div
-                        class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 justify-content-center align-items-center">
-                        <div class="col-6 col-lg-4 col-md-6">
-                            <div class="row p-10">
-                                <div class="bg-glass-stir delayed-hover r-20 maxw-390 mx-auto">
-                                    <img src="images/stir-logo.png" class="logo" alt="Stir Logo">
-                                    <a href="p-stir.html">
-                                        <img src="images/stir-4x3.png" class="works-pic d-block mx-auto"
-                                            alt="Stir Mockups">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row p-10">
-                                <div class="bg-glass-florida delayed-hover r-20 maxw-390 mx-auto">
-                                    <img src="images/florida-logo.png" class="logo" alt="Florida Logo">
-                                    <a href="p-florida.html">
-                                        <img src="images/florida-4x3.png" class="works-pic d-block mx-auto"
-                                            alt="Florida Website">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-4 col-md-6">
-                            <div class="row p-10">
-                                <div class="bg-glass-chattanooga delayed-hover r-20 maxw-390 mx-auto">
-                                    <img src="images/chattanooga-logo.png" class="logo" alt="Chattanooga Logo">
-                                    <a href="p-chattanooga.html">
-                                        <img src="images/chattanooga-4x3.png" class="works-pic d-block mx-auto"
-                                            alt="Chattanooga Website">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row p-10">
-                                <div class="bg-glass-wired delayed-hover r-20 maxw-390 mx-auto">
-                                    <img src="images/wired-logo.png" class="logo" alt="Wired Logo">
-                                    <a href="p-wired.html">
-                                        <img src="images/rewired-4x3.png" class="works-pic d-block mx-auto"
-                                            alt="Wired Coffee Shop">
-                                    </a>
-                                </div>
-                            </div>
+            </nav>
+            <div class="jumbotron d-flex align-items-center mb-5 pb-5">
+                <div class="mx-auto text-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <img class="d-block mx-auto w-100 " src="images/header.png" alt="header">
+                        <div class="bottom-2vh">
+                            <h1 class="text-center">More</h1>
+                            <img class="d-block mx-auto" src="images/arrow-d.png" width="30px" height="15px"
+                                alt="arrow down">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="page two" id="2">
-                <nav class="navbar navbar-expand navbar-light no-border-radius bg-glass">
-                    <div class="container-fluid">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#1">Works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html#2">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#3">Testing Area</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="jumbotron d-flex align-items-center mb-5 pb-5">
-                    <div class="mx-auto text-center">
-                        <div class="d-flex flex-column align-items-center">
-                            <img class="d-block mx-auto w-100 " src="images/header.png" alt="header">
-                            <div class="bottom-2vh">
-                                <h1 class="text-center">More</h1>
-                                <img class="d-block mx-auto" src="images/arrow-d.png" width="30px" height="15px"
-                                    alt="arrow down">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-3 justify-content-center">
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-10 maxw-350 minw-300">
+                        <div class="row mb-3 mx-1">
+                            <div class="container bg-glass-light rounded-4">
+                                <img class="w-100 rounded-4 my-3" src="images/selfie-pro.png" alt="selfie">
+                                <h1 class="text-center p-3">
+                                    I am a Web Developer
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row mb-3 mx-1">
+                            <div class="image-container bg-glass-light rounded-4">
+                                <a href="images/Goodpasture_Thomas_Resume.png" data-lightbox="resume"
+                                    data-title="Resume">
+                                    <img src="images/Goodpasture_Thomas_Resume.png" class="w-100 rounded-4 my-3"
+                                        alt="Resume">
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-3 justify-content-center">
-                        <div class="col-12 col-lg-3 col-md-6 col-sm-10 maxw-350 minw-300">
-                            <div class="row mb-3 mx-1">
-                                <div class="container bg-glass-light rounded-4">
-                                    <img class="w-100 rounded-4 my-3" src="images/selfie-pro.png" alt="selfie">
-                                    <h1 class="text-center p-3">
-                                        I am a Web Developer
-                                    </h1>
-                                </div>
-                            </div>
-                            <div class="row mb-3 mx-1">
-                                <div class="image-container bg-glass-light rounded-4">
-                                    <a href="images/Goodpasture_Thomas_Resume.png" data-lightbox="resume"
-                                        data-title="Resume">
-                                        <img src="images/Goodpasture_Thomas_Resume.png" class="w-100 rounded-4 my-3"
-                                            alt="Resume">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-3 col-md-6 col-sm-10 maxw-350 minw-300">
-                            <div class="row mb-3 mx-1">
-                                <div class="bg-glass-light rounded-4">
-                                    <h1 class="text-center p-3">App Library</h1>
-                                    <div id="carouselAppLibrary" class="carousel slide">
-                                        <div class="carousel-indicators-container">
-                                            <div class="carousel-indicators">
-                                                <button type="button" data-bs-target="#carouselAppLibrary"
-                                                    data-bs-slide-to="0" class="active" aria-current="true"
-                                                    aria-label="Slide 1"></button>
-                                                <button type="button" data-bs-target="#carouselAppLibrary"
-                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            </div>
+                    <div class="col-12 col-lg-3 col-md-6 col-sm-10 maxw-350 minw-300">
+                        <div class="row mb-3 mx-1">
+                            <div class="bg-glass-light rounded-4">
+                                <h1 class="text-center p-3">App Library</h1>
+                                <div id="carouselAppLibrary" class="carousel slide">
+                                    <div class="carousel-indicators-container">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselAppLibrary"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselAppLibrary"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
                                         </div>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <div class="app-library">
-                                                    <div class="row text-center">
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/HTML.png" alt="HTML">
-                                                            <p class="app-title">HTML</p>
-                                                        </div>
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/CSS.png" alt="CSS">
-                                                            <p class="app-title">CSS</p>
-                                                        </div>
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/JS.png" alt="JS">
-                                                            <p class="app-title">JavaScript</p>
-                                                        </div>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="app-library">
+                                                <div class="row text-center">
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/HTML.png" alt="HTML">
+                                                        <p class="app-title">HTML</p>
                                                     </div>
-                                                    <div class="row text-center">
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/Ai.png" alt="Ai">
-                                                            <p class="app-title">Illustrator</p>
-                                                        </div>
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/Ps.png" alt="Ps">
-                                                            <p class="app-title">Photoshop</p>
-                                                        </div>
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/Xd.png" alt="Xd">
-                                                            <p class="app-title">XD</p>
-                                                        </div>
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/CSS.png" alt="CSS">
+                                                        <p class="app-title">CSS</p>
                                                     </div>
-                                                    <div class="row text-center pb-4">
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/Figma.png" alt="Figma">
-                                                            <p class="app-title">Figma</p>
-                                                        </div>
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/WP.png" alt="WP">
-                                                            <p class="app-title">WordPress</p>
-                                                        </div>
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/GPT.png" alt="GPT">
-                                                            <p class="app-title">Chat GPT</p>
-                                                        </div>
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/JS.png" alt="JS">
+                                                        <p class="app-title">JavaScript</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row text-center">
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/Ai.png" alt="Ai">
+                                                        <p class="app-title">Illustrator</p>
+                                                    </div>
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/Ps.png" alt="Ps">
+                                                        <p class="app-title">Photoshop</p>
+                                                    </div>
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/Xd.png" alt="Xd">
+                                                        <p class="app-title">XD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row text-center pb-4">
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/Figma.png" alt="Figma">
+                                                        <p class="app-title">Figma</p>
+                                                    </div>
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/WP.png" alt="WP">
+                                                        <p class="app-title">WordPress</p>
+                                                    </div>
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/GPT.png" alt="GPT">
+                                                        <p class="app-title">Chat GPT</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="carousel-item">
-                                                <div class="app-library">
-                                                    <div class="row text-center">
-                                                        <div class="col-4 mx-auto">
-                                                            <img src="images/bootstrap.png" alt="Bootstrap">
-                                                            <p class="app-title">Bootstrap</p>
-                                                        </div>
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="CSS">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="JS">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="app-library">
+                                                <div class="row text-center">
+                                                    <div class="col-4 mx-auto">
+                                                        <img src="images/bootstrap.png" alt="Bootstrap">
+                                                        <p class="app-title">Bootstrap</p>
                                                     </div>
-                                                    <div class="row text-center">
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="Ai">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="Ps">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="Xd">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="CSS">
+                                                        <p class="app-title">TBD</p>
                                                     </div>
-                                                    <div class="row text-center pb-4 invisible">
-                                                        <div class="col-4 text-center">
-                                                            <img src="images/al-ph.png" alt="Figma">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="WP">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
-                                                        <div class="col-4 text-center invisible">
-                                                            <img src="images/al-ph.png" alt="GPT">
-                                                            <p class="app-title">TBD</p>
-                                                        </div>
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="JS">
+                                                        <p class="app-title">TBD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row text-center">
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="Ai">
+                                                        <p class="app-title">TBD</p>
+                                                    </div>
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="Ps">
+                                                        <p class="app-title">TBD</p>
+                                                    </div>
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="Xd">
+                                                        <p class="app-title">TBD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row text-center pb-4 invisible">
+                                                    <div class="col-4 text-center">
+                                                        <img src="images/al-ph.png" alt="Figma">
+                                                        <p class="app-title">TBD</p>
+                                                    </div>
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="WP">
+                                                        <p class="app-title">TBD</p>
+                                                    </div>
+                                                    <div class="col-4 text-center invisible">
+                                                        <img src="images/al-ph.png" alt="GPT">
+                                                        <p class="app-title">TBD</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -295,95 +209,94 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mx-1">
-                                <div class="container bg-glass-light rounded-4" style="min-height: 393px;">
-                                    <h1 class="text-center pt-3">My Skills</h1>
-                                    <div id="carouselSkills" class="carousel slide">
-                                        <div class="carousel-indicators-container">
-                                            <div class="carousel-indicators">
-                                                <button type="button" data-bs-target="#carouselSkills"
-                                                    data-bs-slide-to="0" class="active" aria-current="true"
-                                                    aria-label="Slide 1"></button>
-                                                <button type="button" data-bs-target="#carouselSkills"
-                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                <button type="button" data-bs-target="#carouselSkills"
-                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                                <button type="button" data-bs-target="#carouselSkills"
-                                                    data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="row mx-1">
+                            <div class="container bg-glass-light rounded-4" style="min-height: 393px;">
+                                <h1 class="text-center pt-3">My Skills</h1>
+                                <div id="carouselSkills" class="carousel slide">
+                                    <div class="carousel-indicators-container">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselSkills" data-bs-slide-to="0"
+                                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselSkills" data-bs-slide-to="1"
+                                                aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselSkills" data-bs-slide-to="2"
+                                                aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselSkills" data-bs-slide-to="3"
+                                                aria-label="Slide 4"></button>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="skills">
+                                                <h3 class="text-center">
+                                                    Adaptability
+                                                </h3>
+                                                <ul class="pb-5">
+                                                    <li>Competitive</li>
+                                                    <li>Creative Solutions</li>
+                                                    <li>Critical Thinking</li>
+                                                    <li>Equitable Design</li>
+                                                    <li>Flexible</li>
+                                                    <li>Teachable</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <div class="skills">
-                                                    <h3 class="text-center">
-                                                        Adaptability
-                                                    </h3>
-                                                    <ul class="pb-5">
-                                                        <li>Competitive</li>
-                                                        <li>Creative Solutions</li>
-                                                        <li>Critical Thinking</li>
-                                                        <li>Equitable Design</li>
-                                                        <li>Flexible</li>
-                                                        <li>Teachable</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                    </ul>
-                                                </div>
+                                        <div class="carousel-item">
+                                            <div class="skills">
+                                                <h3 class="text-center">
+                                                    Design
+                                                </h3>
+                                                <ul class="pb-5">
+                                                    <li>Figma</li>
+                                                    <li>Illustrator</li>
+                                                    <li>Mockups</li>
+                                                    <li>Photoshop</li>
+                                                    <li>Premiere Pro</li>
+                                                    <li>Rapid Prototyping</li>
+                                                    <li>User Experience</li>
+                                                    <li>Wireframing</li>
+                                                    <li>XD</li>
+                                                </ul>
                                             </div>
-                                            <div class="carousel-item">
-                                                <div class="skills">
-                                                    <h3 class="text-center">
-                                                        Design
-                                                    </h3>
-                                                    <ul class="pb-5">
-                                                        <li>Figma</li>
-                                                        <li>Illustrator</li>
-                                                        <li>Mockups</li>
-                                                        <li>Photoshop</li>
-                                                        <li>Premiere Pro</li>
-                                                        <li>Rapid Prototyping</li>
-                                                        <li>User Experience</li>
-                                                        <li>Wireframing</li>
-                                                        <li>XD</li>
-                                                    </ul>
-                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="skills">
+                                                <h3 class="text-center">
+                                                    Front-End
+                                                </h3>
+                                                <ul class="pb-5">
+                                                    <li>CSS</li>
+                                                    <li>Elementor</li>
+                                                    <li>HTML</li>
+                                                    <li>Java Script</li>
+                                                    <li>Wordpress</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                </ul>
                                             </div>
-                                            <div class="carousel-item">
-                                                <div class="skills">
-                                                    <h3 class="text-center">
-                                                        Front-End
-                                                    </h3>
-                                                    <ul class="pb-5">
-                                                        <li>CSS</li>
-                                                        <li>Elementor</li>
-                                                        <li>HTML</li>
-                                                        <li>Java Script</li>
-                                                        <li>Wordpress</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="skills">
-                                                    <h3 class="text-center">
-                                                        UX Research
-                                                    </h3>
-                                                    <ul class="pb-5">
-                                                        <li>Affinity Mapping</li>
-                                                        <li>Competitive Audits</li>
-                                                        <li>Usability Testing</li>
-                                                        <li>User Interviews</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                        <li class="invisible">-</li>
-                                                    </ul>
-                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="skills">
+                                                <h3 class="text-center">
+                                                    UX Research
+                                                </h3>
+                                                <ul class="pb-5">
+                                                    <li>Affinity Mapping</li>
+                                                    <li>Competitive Audits</li>
+                                                    <li>Usability Testing</li>
+                                                    <li>User Interviews</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                    <li class="invisible">-</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -392,41 +305,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="page three" id="3">
-                <nav class="navbar navbar-expand navbar-light no-border-radius bg-glass">
-                    <div class="container-fluid">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#1">Works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#2">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html#3">Testing Area</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="container">
-                    <h1 class="text-center mt-5">
-                        Testing Area
-                    </h1>
-                    <h3 class="text-center mt-5">This is a place I like to put<br> difficult problems at so that I
-                        <br>
-                        am driven to solve them.
-                    </h3>
-                    <p class="col-10 col-lg-3 col-md-6 col-sm-10 bg-glass-light rounded-4 p-3 mx-auto mt-5">This
-                        engaging gooey
-                        background enhances the
-                        webpage, though it faces a challenge with varying SVG support across
-                        browsers. While Chrome users enjoy seamless interactions, Safari may encounter some lag.
-                        Rest
-                        assured, I'm actively
-                        addressing this issue to ensure a glitch-free experience on all platforms.</p>
-                </div>
-
             </div>
         </div>
     </body>
