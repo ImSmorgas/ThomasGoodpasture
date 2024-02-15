@@ -168,7 +168,9 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
-
+.black {
+  color: rgba(0, 0, 0, .96);
+}
 
 
 /* Nav */
@@ -321,10 +323,10 @@ body {
 }
 
 #carouselAppLibrary .carousel-indicators button {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  margin: 0 3px;
+  margin: 0 5px;
   background-color: rgba(150, 150, 150, 0.75);
   border: 1px solid rgba(150, 150, 150, 0.75);
 }
@@ -359,8 +361,8 @@ body {
   text-align: center;
 }
 #carouselSkills .carousel-indicators button {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   margin: 0 5px;
   background-color: rgba(150, 150, 150, 0.75);
